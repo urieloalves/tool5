@@ -1,10 +1,16 @@
+let userCanvas
+let canvas
+
 function setup() {
-    const userCanvas = document.querySelector('canvas')
-    const c = createCanvas(userCanvas.width, userCanvas.height)
-    c.position(userCanvas.offsetLeft, userCanvas.offsetTop)
+    userCanvas = document.querySelector('canvas')
+    canvas= createCanvas(userCanvas.width, userCanvas.height)
+    canvas.position(userCanvas.offsetLeft, userCanvas.offsetTop)
 }
 
 function draw() {
+    if(userCanvas.width !== canvas.width || userCanvas.height !== canvas.height) {
+        resizeCanvas(userCanvas.width, userCanvas.height)
+    }
     clear()
     drawCursor(mouseX, mouseY)
 }
