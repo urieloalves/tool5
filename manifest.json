@@ -1,0 +1,14 @@
+{
+    "name": "p5-extension",
+    "version": "1.0.0",
+    "description": "Chrome extension to help the development of p5.js apps.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js","p5.js"]
+        }
+    ]
+  }
