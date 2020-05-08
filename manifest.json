@@ -10,5 +10,9 @@
             ],
             "js": ["content.js","utils/p5.js"]
         }
-    ]
-  }
+    ],
+    "icons": { "16": "img/logo16.png",
+        "48": "img/logo48.png",
+       "128": "img/logo128.png" 
+    }
+}
