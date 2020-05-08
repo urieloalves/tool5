@@ -11,6 +11,7 @@ function draw() {
 }
 
 function drawCursor(x, y) {
+    if(x > width || y > height) return 
     stroke(0)
     circle(x, y, 7)
     line(0, y, width, y)
