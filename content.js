@@ -4,7 +4,6 @@ function setup() {
     c.position(userCanvas.offsetLeft, userCanvas.offsetTop)
 }
 
-
 function draw() {
     clear()
     drawCursor(mouseX, mouseY)
@@ -17,5 +16,5 @@ function drawCursor(x, y) {
     line(0, y, width, y)
     line(x, 0, x, height)
     fill(0)
-    text(`(${x},${y})`, x - 60, y - 10)
+    text(`(${x}, ${y})`, x + 5, y - 5)
 }
