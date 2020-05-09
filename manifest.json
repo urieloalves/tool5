@@ -3,12 +3,13 @@
     "version": "0.0.1",
     "description": "Chrome extension to help the development of p5.js apps.",
     "manifest_version": 2,
+    "permissions": ["activeTab"],
     "content_scripts": [
         {
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["content.js","utils/p5.js"]
+            "js": ["content.js","dependencies/p5.js"]
         }
     ],
     "icons": { "16": "img/logo16.png",

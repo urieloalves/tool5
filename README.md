@@ -1,7 +1,7 @@
 # tool5
 Chrome extension to help the development of p5.js apps.
 
-<img src="img/screeshot.png" width="50%">
+<img src="img/app.gif" width="60%">
 
 Placing elements exactly where you want in the canvas can be a daunting trial and error task.
 
