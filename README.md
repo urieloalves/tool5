@@ -1,13 +1,15 @@
 # tool5
 Chrome extension to help the development of p5.js apps.
 
+[Install tool5 from Chrome Web Store](https://chrome.google.com/webstore/detail/tool5/ojgbgnoganlhgcidgcafijnnoigankog)
+
 <img src="img/app.gif" width="60%">
 
 Placing elements exactly where you want in the canvas can be a daunting trial and error task.
 
 The goal of this tool is to help you achieve that more easily by allowing you to visualize the mouse coordinates on the canvas that you're currently working on.
 
-## Usage (developer mode)
+## Development
 
 Clone/download the repository.
 
@@ -19,10 +21,10 @@ Click on the `Load unpacked` button and select the folder of the repository wher
 
 Make sure the extension is enabled and have fun!
 
-## Development
+## Observations
 
 This current version only shows the coordinates of the mouse on canvas.
 
 However, my goal is to implement the drawing functionalities of the 2D primitive shapes of p5.js and display the coordinates.
 
-I would love if you are interested in contributing to this project.
+I would love to hear from you if your are interested in contributing to this project.
