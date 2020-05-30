@@ -6,7 +6,7 @@ The goal of this tool is to help the development of p5.js applications by allowi
 
 <img src="img/app.gif" width="60%">
 
-## Motivations
+## Motivation
 
 p5.js is used in the Introduction to Programming I and II classes of the Computer Science program at the University of London.  Many assignments require drawing shapes in the canvas and this tool helps with the coordinates which can be annoying and hard to get right.
 
