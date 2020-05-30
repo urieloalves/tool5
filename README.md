@@ -1,13 +1,15 @@
 # tool5
-Chrome extension to help the development of p5.js apps.
+
+The goal of this tool is to help the development of p5.js applications by allowing you to visualize the mouse coordinates on the canvas that you're currently working on. 
 
 [Install tool5 from Chrome Web Store](https://chrome.google.com/webstore/detail/tool5/ojgbgnoganlhgcidgcafijnnoigankog)
 
 <img src="img/app.gif" width="60%">
 
-Placing elements exactly where you want in the canvas can be a daunting trial and error task.
+## Motivations
 
-The goal of this tool is to help you achieve that more easily by allowing you to visualize the mouse coordinates on the canvas that you're currently working on.
+p5.js is used in the Introduction to Programming I and II classes of the Computer Science program at the University of London.  Many assignments require drawing shapes in the canvas and this tool helps with the coordinates which can be annoying and hard to get right.
+
 
 ## Development
 
