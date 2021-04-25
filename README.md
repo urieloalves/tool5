@@ -27,6 +27,6 @@ Make sure the extension is enabled and have fun!
 
 This current version only shows the coordinates of the mouse on canvas.
 
-However, my goal is to implement the drawing functionalities of the 2D primitive shapes of p5.js and display the coordinates.
+However, it would be nice to have more features such as using the mouse to draw the 2D primitive shapes of p5.js and display the coordinates or/and code snippet.
 
 I would love to hear from you if your are interested in contributing to this project.
